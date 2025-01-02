@@ -7,24 +7,17 @@ const footerConfig = {
     icons: [
         {
             id: "footer-0",
-            url: "https://github.com/rodrigo-arenas",
+            url: "https://github.com/rushi-ace-01",
             className: "social-icon",
             target: "_blank",
             icon: <AiFillGithub size={50}/>
         },
         {
             id: "footer-1",
-            url: "https://linkedin.com/in/rodrigo-arenas-gomez",
+            url: "https://www.linkedin.com/in/rushikesh-gavhane-281436251",
             className: "social-icon",
             target: "_blank",
             icon: <FaLinkedinIn size={50}/>
-        },
-        {
-            id: "footer-2",
-            url: "https://rodrigo-arenas.medium.com",
-            className: "social-icon",
-            target: "_blank",
-            icon: <BsMedium size={50}/>
         }
     ]
 }
