@@ -9,68 +9,65 @@ const homeConfig = {
 
     greeting:
         <h1 className="heading">
-            Hi! I'm <strong className="main-name"> Rodrigo Arenas</strong>
+            Hi! I'm <strong className="main-name"> Rushikesh Gavhane</strong>
         </h1>,
     titles: [
         "A Data Scientist",
-        "A Machine Learning Specialist",
-        "An Open Source Contributor",
-        "A Backend Developer",
-        "A Colombian"
+        "A UI/UX designer",
+        "A Prompt Engineer",
+        "A LLM builder",
+        "An Indian"
     ],
     about: {
-        start: "I've been working for over nine years on data science projects. " +
+        start: "I've been practising machine learning from 2 years. " +
             "I'm excited by learning new things, contributing to the data science community," +
             " and spreading the word of data!",
-        exit: "I'm fluent at Python, SQL databases, BI tools, and more, " +
+        exit: "I'm fluent at Python, generating prompts, and more " +
             "with a deep interest in machine learning."
     },
     workTimeline: [
         {
-            id: "work-4",
-            title: "Sr ML Engineer",
-            company: "EPAM",
-            description: "Working to build scalable ML solutions, LLM's, and RAG architectures.",
-            date: "2023-Present",
-            icon: <BiRocket/>,
-            tags: ["ml", "mlops", "python", "azure", "llm", "automl"]
-        },
+            id: "work-2",
+            title: "Melanoma Skin Cancer Detection Research",
+            company: "Research Project",
+            description: "Authored a research paper focusing on non-invasive melanoma detection using hyperspectral imaging and machine learning techniques.",
+            date: "2024-Present",
+            icon: <FaMicroscope/>,
+            tags: ["research", "hyperspectral imaging", "ml", "python", "cancer detection"]
+},
         {
             id: "work-3",
-            title: "Sr Data Scientist",
-            company: "Globant",
-            description: "Build AutoML models and make them available to non-technical " +
-                "users from a graphical interface.",
-            date: "2021-2023",
+            title: "Landslide Prediction Model",
+            company: "Academic Project",
+            description: "Built a Convolutional Neural Network (CNN) for landslide prediction using historical data and tested it with live inputs.",
+            date: "2024",
             icon: <DiCodeigniter/>,
-            tags: ["ml", "automl", "python", "docker", "redshift", "superset"]
+            tags: ["ml", "cnn", "python", "data augmentation"]
         },
         {
             id: "work-2",
-            title: "BI Manager",
-            company: "Rappi",
-            description: "Leading a team of analysts and data scientists to execute different projects, " +
-                "including the construction of ETLs, data lakes, data warehouses, and machine learning models.",
-            date: "2019-2021",
+            title: "Penguin Species Prediction App",
+            company: "Personal Project",
+            description: "Created a Streamlit app for predicting penguin species using machine learning, incorporating visualizations for better insights.",
+            date: "2024",
             icon: <FaMobileAlt/>,
-            tags: ["ml", "airflow", "python", "docker", "snowflake", "postgres", "azure"]
+            tags: ["ml", "streamlit", "python", "data visualization"]
         },
         {
             id: "work-1",
-            title: "CRM Analytics Coordinator",
-            company: "Avianca",
-            description: "Tech leader of a BI, Data Science and DBA team. " +
-                "Build forecast models, data warehouse and Power BI dashboards.",
-            date: "2018-2019",
+            title: "Mobile App Prototype for Beauty shop",
+            company: "Personal Project",
+            description: "Designed a mobile app prototype for beauty shop, focusing on an intuitive user experience and seamless navigation.",
+            date: "2024",
             icon: <GiCommercialAirplane/>,
-            tags: ["ml", "mssql", "python", "docker", "pbi", "azure"]
+            tags: ["ui/ux", "adobe xd", "figma", "prototyping"]
         },
         {
             id: "work-0",
-            title: "BI Analyst",
+            title: "Website prototype for Zara model",
             company: "Onelink BPO",
-            description: "Build interactive dashboards, ETLs and SQL queries to show the company KPIs.",
-            date: "2016-2018",
+            description: "Build website for zara model, with amazing graphics",
+            date: "2024",
             icon: <BsClipboardData/>,
             tags: ["python", "mssql", "pbi", "excel"]
         }
