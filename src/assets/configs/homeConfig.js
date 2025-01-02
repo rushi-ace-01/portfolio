@@ -64,12 +64,12 @@ const homeConfig = {
         },
         {
             id: "work-0",
-            title: "Website prototype for Zara model",
-            company: "Onelink BPO",
-            description: "Build website for zara model, with amazing graphics",
+            title: "Kaggle competition: Advanced Regression Techniques",
+            company: "Kaggle competition",
+            description: "Rank-1195 , Score-0.13282",
             date: "2024",
             icon: <BsClipboardData/>,
-            tags: ["python", "mssql", "pbi", "excel"]
+            tags: ["python", "data cleaning/processing", "algorithms"]
         }
     ]
 }
