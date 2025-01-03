@@ -52,7 +52,7 @@ const projectConfig = [
                 icon: <AiFillGithub/>
             }
         ],
-        image: "https://e7.pngegg.com/pngimages/292/269/png-clipart-logo-user-interface-design-user-experience-design-design-user-interface-design-label.png,
+        image: "https://e7.pngegg.com/pngimages/292/269/png-clipart-logo-user-interface-design-user-experience-design-design-user-interface-design-label.png",
         description: "Designs, prototypes and graphics illustrations",
         target: "_blank"
     },
